@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46AF536B2C494D0100630E00 /* DhrishyaStreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AF536A2C494D0100630E00 /* DhrishyaStreamApp.swift */; };
+		46AF536D2C494D0100630E00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AF536C2C494D0100630E00 /* ContentView.swift */; };
+		46AF536F2C494D0200630E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AF536E2C494D0200630E00 /* Assets.xcassets */; };
+		46AF53722C494D0200630E00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AF53712C494D0200630E00 /* Preview Assets.xcassets */; };
+		46AF537B2C49517200630E00 /* MetaDataStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AF537A2C49517200630E00 /* MetaDataStackView.swift */; };
+		46AF537D2C495BC200630E00 /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AF537C2C495BC200630E00 /* AssetView.swift */; };
+		46F37F012C4AD0910082E547 /* CastProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F37F002C4AD0910082E547 /* CastProfileView.swift */; };
+		46F37F032C4AD5C00082E547 /* VerticalAssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F37F022C4AD5C00082E547 /* VerticalAssetView.swift */; };
+		46F37F052C4AD8D60082E547 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F37F042C4AD8D60082E547 /* EpisodeView.swift */; };
+		46F37F072C4ADC600082E547 /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F37F062C4ADC600082E547 /* PlayerControlsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46AF53672C494D0100630E00 /* DhrishyaStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DhrishyaStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AF536A2C494D0100630E00 /* DhrishyaStreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhrishyaStreamApp.swift; sourceTree = "<group>"; };
+		46AF536C2C494D0100630E00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46AF536E2C494D0200630E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46AF53712C494D0200630E00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46AF537A2C49517200630E00 /* MetaDataStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDataStackView.swift; sourceTree = "<group>"; };
+		46AF537C2C495BC200630E00 /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
+		46F37F002C4AD0910082E547 /* CastProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastProfileView.swift; sourceTree = "<group>"; };
+		46F37F022C4AD5C00082E547 /* VerticalAssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalAssetView.swift; sourceTree = "<group>"; };
+		46F37F042C4AD8D60082E547 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
+		46F37F062C4ADC600082E547 /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46AF53642C494D0100630E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46AF535E2C494D0100630E00 = {
+			isa = PBXGroup;
+			children = (
+				46AF53692C494D0100630E00 /* DhrishyaStream */,
+				46AF53682C494D0100630E00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46AF53682C494D0100630E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46AF53672C494D0100630E00 /* DhrishyaStream.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46AF53692C494D0100630E00 /* DhrishyaStream */ = {
+			isa = PBXGroup;
+			children = (
+				46AF53782C49514700630E00 /* HomeScreen */,
+				46AF536A2C494D0100630E00 /* DhrishyaStreamApp.swift */,
+				46AF536C2C494D0100630E00 /* ContentView.swift */,
+				46AF536E2C494D0200630E00 /* Assets.xcassets */,
+				46AF53702C494D0200630E00 /* Preview Content */,
+			);
+			path = DhrishyaStream;
+			sourceTree = "<group>";
+		};
+		46AF53702C494D0200630E00 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46AF53712C494D0200630E00 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46AF53782C49514700630E00 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				46AF53792C49514F00630E00 /* Views */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		46AF53792C49514F00630E00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46AF537A2C49517200630E00 /* MetaDataStackView.swift */,
+				46AF537C2C495BC200630E00 /* AssetView.swift */,
+				46F37F002C4AD0910082E547 /* CastProfileView.swift */,
+				46F37F022C4AD5C00082E547 /* VerticalAssetView.swift */,
+				46F37F042C4AD8D60082E547 /* EpisodeView.swift */,
+				46F37F062C4ADC600082E547 /* PlayerControlsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46AF53662C494D0100630E00 /* DhrishyaStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46AF53752C494D0200630E00 /* Build configuration list for PBXNativeTarget "DhrishyaStream" */;
+			buildPhases = (
+				46AF53632C494D0100630E00 /* Sources */,
+				46AF53642C494D0100630E00 /* Frameworks */,
+				46AF53652C494D0100630E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DhrishyaStream;
+			productName = DhrishyaStream;
+			productReference = 46AF53672C494D0100630E00 /* DhrishyaStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46AF535F2C494D0100630E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					46AF53662C494D0100630E00 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 46AF53622C494D0100630E00 /* Build configuration list for PBXProject "DhrishyaStream" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46AF535E2C494D0100630E00;
+			productRefGroup = 46AF53682C494D0100630E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46AF53662C494D0100630E00 /* DhrishyaStream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46AF53652C494D0100630E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AF53722C494D0200630E00 /* Preview Assets.xcassets in Resources */,
+				46AF536F2C494D0200630E00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46AF53632C494D0100630E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AF537B2C49517200630E00 /* MetaDataStackView.swift in Sources */,
+				46AF537D2C495BC200630E00 /* AssetView.swift in Sources */,
+				46F37F012C4AD0910082E547 /* CastProfileView.swift in Sources */,
+				46AF536D2C494D0100630E00 /* ContentView.swift in Sources */,
+				46AF536B2C494D0100630E00 /* DhrishyaStreamApp.swift in Sources */,
+				46F37F052C4AD8D60082E547 /* EpisodeView.swift in Sources */,
+				46F37F032C4AD5C00082E547 /* VerticalAssetView.swift in Sources */,
+				46F37F072C4ADC600082E547 /* PlayerControlsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46AF53732C494D0200630E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+			};
+			name = Debug;
+		};
+		46AF53742C494D0200630E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46AF53762C494D0200630E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DhrishyaStream/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhok.abhishek.DhrishyaStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		46AF53772C494D0200630E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DhrishyaStream/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhok.abhishek.DhrishyaStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46AF53622C494D0100630E00 /* Build configuration list for PBXProject "DhrishyaStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AF53732C494D0200630E00 /* Debug */,
+				46AF53742C494D0200630E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46AF53752C494D0200630E00 /* Build configuration list for PBXNativeTarget "DhrishyaStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AF53762C494D0200630E00 /* Debug */,
+				46AF53772C494D0200630E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46AF535F2C494D0100630E00 /* Project object */;
+}
