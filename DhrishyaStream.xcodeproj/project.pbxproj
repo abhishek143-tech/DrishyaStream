@@ -13,10 +13,13 @@
 		46AF53722C494D0200630E00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AF53712C494D0200630E00 /* Preview Assets.xcassets */; };
 		46AF537B2C49517200630E00 /* MetaDataStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AF537A2C49517200630E00 /* MetaDataStackView.swift */; };
 		46AF537D2C495BC200630E00 /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AF537C2C495BC200630E00 /* AssetView.swift */; };
+		46CADCBF2C56250400C121F0 /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CADCBE2C56250400C121F0 /* PlayerControlsView.swift */; };
+		46CADCC12C56255000C121F0 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CADCC02C56255000C121F0 /* PlayerView.swift */; };
+		46CADCC52C562A1A00C121F0 /* TopScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CADCC42C562A1A00C121F0 /* TopScreenView.swift */; };
+		46CADCC72C5630F000C121F0 /* HomeScreenUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CADCC62C5630F000C121F0 /* HomeScreenUI.swift */; };
 		46F37F012C4AD0910082E547 /* CastProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F37F002C4AD0910082E547 /* CastProfileView.swift */; };
 		46F37F032C4AD5C00082E547 /* VerticalAssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F37F022C4AD5C00082E547 /* VerticalAssetView.swift */; };
 		46F37F052C4AD8D60082E547 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F37F042C4AD8D60082E547 /* EpisodeView.swift */; };
-		46F37F072C4ADC600082E547 /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F37F062C4ADC600082E547 /* PlayerControlsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +30,13 @@
 		46AF53712C494D0200630E00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		46AF537A2C49517200630E00 /* MetaDataStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDataStackView.swift; sourceTree = "<group>"; };
 		46AF537C2C495BC200630E00 /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
+		46CADCBE2C56250400C121F0 /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
+		46CADCC02C56255000C121F0 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		46CADCC42C562A1A00C121F0 /* TopScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScreenView.swift; sourceTree = "<group>"; };
+		46CADCC62C5630F000C121F0 /* HomeScreenUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenUI.swift; sourceTree = "<group>"; };
 		46F37F002C4AD0910082E547 /* CastProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastProfileView.swift; sourceTree = "<group>"; };
 		46F37F022C4AD5C00082E547 /* VerticalAssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalAssetView.swift; sourceTree = "<group>"; };
 		46F37F042C4AD8D60082E547 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
-		46F37F062C4ADC600082E547 /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,8 @@
 		46AF53692C494D0100630E00 /* DhrishyaStream */ = {
 			isa = PBXGroup;
 			children = (
+				46CADCC22C562A0800C121F0 /* Common */,
+				46CADCBC2C5624B500C121F0 /* PlayerScreen */,
 				46AF53782C49514700630E00 /* HomeScreen */,
 				46AF536A2C494D0100630E00 /* DhrishyaStreamApp.swift */,
 				46AF536C2C494D0100630E00 /* ContentView.swift */,
@@ -84,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				46AF53792C49514F00630E00 /* Views */,
+				46CADCC62C5630F000C121F0 /* HomeScreenUI.swift */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -96,7 +105,39 @@
 				46F37F002C4AD0910082E547 /* CastProfileView.swift */,
 				46F37F022C4AD5C00082E547 /* VerticalAssetView.swift */,
 				46F37F042C4AD8D60082E547 /* EpisodeView.swift */,
-				46F37F062C4ADC600082E547 /* PlayerControlsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46CADCBC2C5624B500C121F0 /* PlayerScreen */ = {
+			isa = PBXGroup;
+			children = (
+				46CADCBD2C5624CC00C121F0 /* Views */,
+			);
+			path = PlayerScreen;
+			sourceTree = "<group>";
+		};
+		46CADCBD2C5624CC00C121F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46CADCBE2C56250400C121F0 /* PlayerControlsView.swift */,
+				46CADCC02C56255000C121F0 /* PlayerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46CADCC22C562A0800C121F0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				46CADCC32C562A0D00C121F0 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		46CADCC32C562A0D00C121F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46CADCC42C562A1A00C121F0 /* TopScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,14 +212,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46CADCC12C56255000C121F0 /* PlayerView.swift in Sources */,
 				46AF537B2C49517200630E00 /* MetaDataStackView.swift in Sources */,
 				46AF537D2C495BC200630E00 /* AssetView.swift in Sources */,
 				46F37F012C4AD0910082E547 /* CastProfileView.swift in Sources */,
+				46CADCC52C562A1A00C121F0 /* TopScreenView.swift in Sources */,
 				46AF536D2C494D0100630E00 /* ContentView.swift in Sources */,
 				46AF536B2C494D0100630E00 /* DhrishyaStreamApp.swift in Sources */,
 				46F37F052C4AD8D60082E547 /* EpisodeView.swift in Sources */,
+				46CADCC72C5630F000C121F0 /* HomeScreenUI.swift in Sources */,
 				46F37F032C4AD5C00082E547 /* VerticalAssetView.swift in Sources */,
-				46F37F072C4ADC600082E547 /* PlayerControlsView.swift in Sources */,
+				46CADCBF2C56250400C121F0 /* PlayerControlsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

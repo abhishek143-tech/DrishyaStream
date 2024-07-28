@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct CastProfileView: View {
+    var width: CGFloat
+    var height: CGFloat
     var body: some View {
         ZStack(alignment: .bottom) {
             let image = UIImage(named: "abhi")
             Image(uiImage: image ?? UIImage())
                 .resizable()
-                .frame(width: 500, height: 700)
+                .frame(width: width, height: height)
                 .clipShape(Circle())
             VStack(spacing: 10) {
                 Text("Abhishek Dhok")
@@ -29,5 +31,5 @@ struct CastProfileView: View {
 }
 
 #Preview {
-    CastProfileView()
+    CastProfileView(width: 500, height: 700)
 }
